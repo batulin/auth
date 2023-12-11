@@ -1,0 +1,60 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.5);
+}
+.modal {
+    background: #fff;
+    border-radius: 5px;
+    padding: 1.5rem;
+    position: relative;
+    max-height: 80vh;
+}
+.modal-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+.btn-submit {
+    background: #2394de;
+}
+.btn-cancel {
+    background: #ea69ae;
+}
+.btn-open {
+    background: #7463f5;
+}
+.modal-content {
+    height: 100%;
+    overflow: auto;
+    position: relative;
+}
+
+.small {
+    width: 20rem;
+}
+.medium {
+    width: 30rem;
+}
+.large {
+    width: 40rem;
+}
